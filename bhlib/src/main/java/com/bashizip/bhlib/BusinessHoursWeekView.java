@@ -78,13 +78,13 @@ public class BusinessHoursWeekView extends LinearLayout {
 
     private void initModel() {
 
-        BusinessHours bh1 = new BusinessHours(getContext().getString(R.string.bhv_sunday), "08:00 am", "17:00 pm");
-        BusinessHours bh2 = new BusinessHours(getContext().getString(R.string.bhv_monday), "08:00 am", "17:00 pm");
-        BusinessHours bh3 = new BusinessHours(getContext().getString(R.string.bhv_tuesday), "08:00 am", "17:00 pm");
-        BusinessHours bh4 = new BusinessHours(getContext().getString(R.string.bhv_wednesday), "08:00 am", "17:00 pm");
-        BusinessHours bh5 = new BusinessHours(getContext().getString(R.string.bhv_thursday), "08:00 am", "17:00 pm");
-        BusinessHours bh6 = new BusinessHours(getContext().getString(R.string.bhv_friday), "08:00 am", "17:00 pm");
-        BusinessHours bh7 = new BusinessHours(getContext().getString(R.string.bhv_saturday), "08:00 am", "17:00 pm");
+        BusinessHours bh1 = new BusinessHours(getContext().getString(R.string.bhv_saturday), "08:00 am", "17:00 pm");
+        BusinessHours bh2 = new BusinessHours(getContext().getString(R.string.bhv_sunday), "08:00 am", "17:00 pm");
+        BusinessHours bh3 = new BusinessHours(getContext().getString(R.string.bhv_monday), "08:00 am", "17:00 pm");
+        BusinessHours bh4 = new BusinessHours(getContext().getString(R.string.bhv_tuesday), "08:00 am", "17:00 pm");
+        BusinessHours bh5 = new BusinessHours(getContext().getString(R.string.bhv_wednesday), "08:00 am", "17:00 pm");
+        BusinessHours bh6 = new BusinessHours(getContext().getString(R.string.bhv_thursday), "08:00 am", "17:00 pm");
+        BusinessHours bh7 = new BusinessHours(getContext().getString(R.string.bhv_friday), "08:00 am", "17:00 pm");
 
         model.add(bh1);
         model.add(bh2);
