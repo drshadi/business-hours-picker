@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">BHLib</string>
-    <string name="bh_closed">Closed</string>
-    <string name="bh_open">Open</string>
-    <string name="bh_start_hours">From</string>
-    <string name="bh_end_hours">To</string>
+    <string name="bh_closed">مغلق</string>
+    <string name="bh_open">مفتوح</string>
+    <string name="bh_start_hours">من</string>
+    <string name="bh_end_hours">إلى</string>
 
     <string name="bhv_monday">الاثنين</string>
     <string name="bhv_tuesday">الثلاثاء</string>
